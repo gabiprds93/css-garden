@@ -1,0 +1,144 @@
+/* Agrega aquí tus estilos*/
+@import url('https://fonts.googleapis.com/css?family=Lemonada');
+body
+{
+    color: #325050;
+    font-family: 'Lemonada', cursive;
+    font-size: 120%;
+    text-align: justify;
+}
+section
+{
+    padding-left: 5%;
+    padding-bottom: 5%;
+    background-color: darkkhaki;
+}
+header
+{
+    background-image: url(../banner.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    padding-left: 25%;
+    padding-bottom: 1%;
+    width: 100%;
+    height: 100%;
+}
+header h1
+{
+    margin: 0;
+    padding-top: 2%;
+    font-size: 40px;
+}
+.summary, .preamble, .participation
+{
+    padding-left: 5%;
+}
+a
+{
+    text-decoration: none;
+}
+a:link
+{
+    color: blue;
+}
+a:visited
+{
+    color: #57e008;
+}
+a:active
+{
+    font-size: 20px;
+}
+#zen-summary a:hover
+{
+    background-color: rgb(20, 21, 15);
+    color: white;
+    text-decoration: none;
+}
+div a:hover
+{
+    text-decoration: underline;
+}
+h3
+{
+    text-shadow: -1px -1px 1px #236750;
+}
+.preamble
+{
+    padding-right: 5%;
+    margin-right: 30%;
+    background: rgba(255,255,255,0.9);
+    opacity: 10;
+    border: 5px black dotted; 
+}
+#zen-supporting
+{
+    padding-left: 5%;
+    background-color: aquamarine;
+}
+.summary
+{
+    margin-right: 35%;
+}
+.explanation
+{
+    width: 40%;
+    height: 1000px;
+    //margin-right: 50%;
+    float: left;
+}
+.participation
+{
+    width: 40%;
+    float: right;
+    background-color: crimson;
+    color: azure;
+    opacity: 10000;
+    padding-right: 5%;
+}
+.benefits
+{
+    width: 20%;
+    height: auto;
+    background-color: snow;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 20%;
+    float: left;
+}
+.requirements
+{
+    width: 60%;
+    padding-right: 5%;
+    padding-left: 5%;
+    //position: relative;
+    float: right;
+    margin-top: 10%;
+    background-color: snow;
+}
+footer
+{
+    padding-top: 0%;
+    text-align: center;
+    clear: both;
+    background-color: darkgreen;
+    width: 20%;
+}
+.sidebar
+{
+    padding: 5% 5% 5% 5%; 
+    margin-top: 5%;
+    background-attachment: scroll, scroll, fixed;
+    background-color: rgba(138,188,159,0.5);
+    background-image: url(../fondo.jpg);
+    clear: both;
+    position: relative;
+}
+.wrapper
+{
+    margin: 30px;
+    padding-left: 5%;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+}
